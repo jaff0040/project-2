@@ -342,7 +342,7 @@ li{
     position: relative;
     background-size: cover;
     width: 100%;
-    height: 90vh;
+    height: 88vh;
 }
 
 .hero-background .text-center{
@@ -351,7 +351,6 @@ li{
     left: 8%;
     text-align: center;
     position: absolute;
-
 }
 
 
@@ -394,3 +393,92 @@ li{
     border: 1.3px solid #0b2545;
 }
 
+
+
+
+
+
+
+/* start watch categories section */
+
+.watch-types{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.watch-section {
+    background-color: #ffffff;
+}
+
+.watch-types div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.watch-types > div{
+    width: 400px;
+    height: 400px;
+    margin: 40px 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.watch-types > div::after{
+    content: "";
+    width: 100%;
+    height: 40%;
+    background-image: linear-gradient(to top, #000000, #00000005);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    
+}
+
+.watch-types div img{
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+
+
+
+.watch-types div:hover img{
+    transform: scale(1.1,1.1);
+}
+
+.watch-types div .watch-info{
+    width: 100%;
+    height: 28%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    transform: translateY(50px);
+    transition: 1s;
+}
+
+.watch-types div:hover .watch-info{
+    transform: translateY(0px);
+}
+
+.watch-types div .watch-info h2{
+    color: #fff;
+    margin: 15px 0 20px;
+}
+
+.watch-types div .watch-info a{
+    color: #b8b8b8;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 3px;
+    border-bottom: 3px solid #b8b8b8;
+}
+
+.watch-types div .watch-info a:hover{
+    letter-spacing: 1px;
+}
