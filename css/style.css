@@ -60,7 +60,7 @@ li{
     position: relative;
     color: #0b2545;
     font-size: 14px;
-    padding: 0 10px;
+    padding: 0 7px;
 }
 
 .top-bar a::before,
@@ -306,7 +306,7 @@ li{
 
 
 
-/* ===== SALE BAR ===== */
+/* --- SALE BAR --- */
 
 .sale-bar{
     background: #0b2545;
@@ -329,3 +329,64 @@ li{
 .sale-bar a:hover{
     letter-spacing: 2px;
 }
+
+
+
+
+
+
+/* --- hero area --- */
+
+.hero-background{
+    background: url(../images/hero.svg);
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    background-size: cover;
+}
+
+.hero-background .text-center{
+    width: 500px;
+    top: 32%;
+    left: 8%;
+    text-align: center;
+    position: absolute;
+
+}
+
+
+.hero-background span{
+    color: #1b75bb; 
+    font-family: 'Clicker Script', cursive;
+    font-size: 50px;
+}
+
+.hero-background h1{
+    padding: 0 10px;
+    font-size: 48px;
+    color: #0b2545; 
+}
+
+.hero-background p{
+    width: 450px;
+    font-size: 18px;
+    color: #555;
+    margin: 15px auto 30px;
+    padding: 0 20px;
+}
+
+
+.hero-background a{
+    background: #0b2545;
+    color: #fff;
+    font-size: 20px;
+    padding: 15px 25px;
+    transition: 0.5s;
+}
+
+.hero-background a:hover{
+    color: #0b2545;
+    background: #fff;
+    border: 1px solid #0b2545;
+}
+
