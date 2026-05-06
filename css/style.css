@@ -657,7 +657,7 @@ li{
     left: 0;
     z-index: 1;
 
-    background: url(../images/trend-2-hover.jpg);
+    background: url(../images/trend-2-hover.png);
     background-size: cover;
 
     backface-visibility: hidden;
@@ -676,7 +676,7 @@ li{
     left: 0;
     z-index: 1;
 
-    background: url(../images/trend-3-hover.jpg);
+    background: url(../images/trend-3-hover.png);
     background-size: cover;
 
     backface-visibility: hidden;
@@ -695,7 +695,7 @@ li{
     left: 0;
     z-index: 1;
 
-    background: url(../images/trend4-hover.jpg);
+    background: url(../images/trend-4-hover.png);
     background-size: cover;
 
     backface-visibility: hidden;
