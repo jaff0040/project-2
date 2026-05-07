@@ -495,7 +495,6 @@ li{
 
 /* --- Trending section --- */
 
-
 .trending-area{
     margin-top: 70px;
     position: relative;
@@ -503,23 +502,23 @@ li{
 
 .trending-area .trending{
     min-height: 50px;
-    border-bottom: 1px solid #0b254570;
-    display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    border-bottom: 1px solid #0b254570;
+    display: flex;
 }
 
 .trending-area .trending h2{
-    font-size: 35px;
     color: #0b2545;
     font-weight: 500;
+    font-size: 35px;
 }
 
 .trending-area .trending a{
-    height: 65px;
-    margin-left: 25px;
     color: #0b2545;
     font-size: 20px;
+    height: 60px;
+    margin-left: 25px;
 }
 
 .trending-area .trending .link-select{
@@ -528,28 +527,28 @@ li{
 }
 
 .trending-area .product-trend{
-    display: flex;
     justify-content: space-between;
+    display: flex;
 }
 
 .trending-area .product-trend div{
-    width: 24%;
-    height: 500px;
-    margin-top: 50px;
     text-align: center;
     position: relative;
+    width: 24%;
+    height: 500px;
+    margin-top: 40px;
     perspective: 1000px;
 }
 
 .trending-area .product-trend div img{
+    object-fit: cover;
     width: 100%;
     height: 75%;
-    object-fit: cover;
 }
 
 .trending-area .product-trend div a{
     padding: 10px 0;
-    font-size: 20px;
+    font-size: 22px;
     color: #0b2545;
 }
 
@@ -559,8 +558,8 @@ li{
 
 .trending-area .product-trend div p{
     color: #0b2545;
+    font-size: 20px;
     opacity: 0.8;
-    font-size: 18px;
 }
 
 .trending-area .product-trend div:hover p{
@@ -568,25 +567,24 @@ li{
 }
 
 .trending-area .product-trend div:hover p span{
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 .trending-area .product-trend div p span{
-    text-decoration: line-through;
     margin-left: 10px;
+    text-decoration: line-through;
 }
 
 .trending-area .product-trend div .icon{
-    width: 60%;
-    height: 10%;
     display: flex;
     position: absolute;
+    width: 60%;
+    height: 10%;
     left: 20%;
     bottom: 30%;
     z-index: 10;
     
     background: #fffffff2;
-    /* border: 2px solid #1b76bb80; */
     border-radius: 6px;
     box-shadow: 0 0 10px #00000050;
 
@@ -610,8 +608,6 @@ li{
     visibility: hidden;
     transform: translateY(20%);
     transition: 1s;
-
-    
 }
 
 .trending-area .product-trend div:hover .icon{
@@ -630,8 +626,6 @@ li{
     background: #1b75bb;
     color: #fff;
 }
-
-
 
 .trending-area .product-trend > div::after{
     content: "";
@@ -743,13 +737,14 @@ li{
     color: #4b87b4;
 }
 
-.trending-area .left{
+.trending-area .right-side{
+    top: 50%;
+    right: -35px;
+}
+
+.trending-area .left-side{
     top: 50%;
     left: -35px;
 }
 
-.trending-area .right{
-    top: 50%;
-    right: -35px;
-}
 
