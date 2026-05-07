@@ -660,7 +660,7 @@ li{
     left: 0;
     z-index: 1;
 
-    background: url(../images/trend-1-hover.jpg);
+    background: url(../images/trend-1-hover.png);
     background-size: cover;
 
     backface-visibility: hidden;
@@ -725,7 +725,6 @@ li{
     transition: 1s;
     transform-style: preserve-3d;
 }
-
 
 
 .trending-area .product-trend > div:hover::after{
