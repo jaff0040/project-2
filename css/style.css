@@ -490,10 +490,11 @@ li{
 
 
 
+
+
+
 /* --- Trending section --- */
 
-
-/* start section-two area */
 
 .trend-area{
     margin-top: 70px;
@@ -583,12 +584,23 @@ li{
     left: 20%;
     bottom: 30%;
     z-index: 10;
+    
+    background: #fff;
+    border: 2px solid #1b76bb80;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #00000050;
+
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20%);
+    transition: 1s;
+
 }
 
 .trend-area .product-trend div .icon a{
     color: #0b2545;
     width: calc(100% / 3);
-    background: #fff;
+    background: transparent;  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -598,6 +610,14 @@ li{
     visibility: hidden;
     transform: translateY(20%);
     transition: 1s;
+
+    
+}
+
+.trend-area .product-trend div:hover .icon{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
 }
 
 .trend-area .product-trend div:hover .icon a{
@@ -610,6 +630,8 @@ li{
     background: #1b75bb;
     color: #fff;
 }
+
+
 
 .trend-area .product-trend > div::after{
     content: "";
