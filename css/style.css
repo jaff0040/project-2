@@ -819,15 +819,15 @@ li{
 
 .customer > a:hover{
     opacity: 1;
-    color: #1b75bb;
+    color:  #4b87b4;
 }
 
-.customer .left{
+.customer .left-side{
     top: 50%;
     left: 10%;
 }
 
-.customer .right{
+.customer .right-side{
     top: 50%;
     right: 10%;
 }
