@@ -973,26 +973,43 @@ li{
 .like-area .product-trend > div:nth-child(1)::after{
     background: url(../images/like1-hover.jpg);
     background-size: cover;
+    transform: translateY(-75%);
+    opacity: 0;
+    visibility: hidden;
 }
 
 .like-area .product-trend > div:nth-child(2)::after{
     background: url(../images/like2-hover.jpg);
     background-size: cover;
+    transform: translateY(-75%);
+    opacity: 0;
+    visibility: hidden;
 }
 
 .like-area .product-trend > div:nth-child(3)::after{
     background: url(../images/like3-hover.jpg);
     background-size: cover;
+    transform: translateY(-75%);
+    opacity: 0;
+    visibility: hidden;
 }
 
 .like-area .product-trend > div:nth-child(4)::after{
     background: url(../images/like4-hover.jpg);
     background-size: cover;
+    transform: translateY(-75%);
+    opacity: 0;
+    visibility: hidden;
 }
 
 .like-area .product-trend > div:hover::after{
-    transform: rotateY(0deg);
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
 }
+
+
+
 
 /* arrows */
 .like-area > a{
