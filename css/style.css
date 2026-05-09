@@ -1082,7 +1082,7 @@ li{
 .latest-news > div span{
     display: block;
     color: #0b254580;
-    padding-top: 15px;
+    padding-top: 20px;
 }
 
 .latest-news > div a{
@@ -1096,8 +1096,8 @@ li{
 }
 
 .latest-news > div .more{
-    text-decoration: underline;
     margin-bottom: 50px;
+    text-decoration: underline;
 }
 
 .latest-news > div .more:hover{
@@ -1105,6 +1105,6 @@ li{
 }
 
 .latest-news > div p{
+    font-size: 17px;
     color: #0b254580;
-    font-size: 18px;
 }
