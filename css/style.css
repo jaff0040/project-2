@@ -1113,3 +1113,62 @@ li{
 
 
 
+
+
+/* --- delivery section --- */
+
+.delivery{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    justify-content: space-between;
+    text-align: center;
+    display: flex;
+}
+
+
+.delivery div > div{
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    position: relative;
+}
+
+.delivery div > div i{
+    width: 100%;
+    height: 92%;
+    font-size: 45px;
+    margin-bottom: 30px;
+    color: #0b254560;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.delivery div #icon{
+    position: absolute;
+    color: #0b2545;
+    transform: translateY(65px);
+    top: 0;
+    left: 0;
+}
+
+.delivery div:hover > div i{
+    transform: translateY(-50px);
+}
+
+.delivery div:hover div #icon{
+    transform: translateY(0);
+}
+
+.delivery h3{
+    color: #0b2545;
+}
+
+.delivery p{
+    margin-top: 10px;
+    color: #5e5e5e;
+}
+
+
+
