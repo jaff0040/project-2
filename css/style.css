@@ -1253,10 +1253,33 @@ li{
 }
 
 .footer-section .div2 img{
-    height: 110px;
-    width: 110px;
-    
+    height: 100px;
+    width: 100px;
+    background: #fff;
 }
+
+
+.footer-logo-box{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px ;
+    padding-right: 15px;
+}
+
+.footer-logo-box img{
+    width: 70px;
+    height: 70px;
+}
+
+.footer-logo-box h2{
+    color: #0b2545;
+    font-size: 22px;
+}
+
+
 
 .footer-section .div2 a{
     display: block;
@@ -1299,6 +1322,9 @@ li{
 .footer-section .div3 p span i{
     animation: anamy 0.5s linear infinite alternate;
 }
+
+
+
 
 @keyframes anamy{
     0%{
