@@ -1172,3 +1172,27 @@ li{
 
 
 
+
+
+
+/* start footer area */
+
+.footer{
+    width: 100%;
+    background: #0b2545;
+    min-height: 500px;
+}
+
+.footer-section{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-section > div{
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
