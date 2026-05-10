@@ -1186,13 +1186,128 @@ li{
 .footer-section{
     color: #fff;
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
 }
 
 .footer-section > div{
     display: flex;
-    padding-top: 20px;
+    padding-top: 18px;
     justify-content: space-between;
     align-items: flex-start;
+}
+
+.footer-section .div1{
+    width: 100%;
+    min-height: 110px;
+    border-bottom: 1px solid #f2fffe60;
+    align-items: center;
+}
+
+.footer-section .div1 div p{
+    padding-top: 16px;
+}
+
+.footer-section .div1 div input{
+    padding-left: 15px;
+    font-size: 18px;
+    width: 350px;
+    height: 50px;
+}
+
+.footer-section .div1 .send-email{
+    display: flex;
+}
+
+.footer-section .div1 div .subscribe{
+    background: #1b75bb;
+    color: #fff;
+    width: 140px;
+    height: 48px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 48px;
+    margin-left: 10px;
+}
+
+.footer-section .div1 div input:focus{
+    outline: none;
+}
+
+.footer-section .div1 div a{
+    color: #b8b8b8;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.footer-section .div1 div a:hover{
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.footer-section .div2{
+    width: 100%;
+    border-bottom: 1px solid #f2fffe60;
+    min-height: 300px;
+    margin-top: 50px;
+}
+
+.footer-section .div2 img{
+    height: 110px;
+    width: 110px;
+    
+}
+
+.footer-section .div2 a{
+    display: block;
+    color: #BBB9B5;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+
+.footer-section .div2 a:hover{
+    color: #fff;
+    text-decoration: underline;
+    transform: scalex(1.08);
+}
+
+.footer-section .div2 h3{
+    margin-bottom: 25px;
+}
+
+.footer-section .div3{
+    width: 100%;
+    min-height: 50px;
+    justify-content: center;
+}
+
+.footer-section .div3 p{
+    color: #BBB9B5;
+}
+
+.footer-section .div3 p span,
+.footer-section .div3 p a{
+    padding: 0 2px;
+    color: #38a9ff;
+}
+
+.footer-section .div3 p a:hover{
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+
+.footer-section .div3 p span i{
+    animation: anamy 0.5s linear infinite alternate;
+}
+
+@keyframes anamy{
+    0%{
+        color: #000000;
+        transform: scale(1);
+    }
+
+    100%{
+        color: #ff0000;
+        transform: scale(1.5);
+    }
 }
