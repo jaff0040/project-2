@@ -851,6 +851,7 @@ li{
 .like-area .may-like{
     justify-content: center;
     border-bottom: none;
+    text-align: center;
 }
 
 .like-area .trending h2{
@@ -886,7 +887,7 @@ li{
     color: #0b2545;
 }
 
-.like-area .product-trend div:hover a{
+.like-area .product-trend div:hover > a{
     color: #1b75bb;
 }
 
@@ -939,7 +940,7 @@ li{
     opacity: 0;
     visibility: hidden;
     transform: translateY(20%);
-    transition: 1s;
+    transition: 0.4s;
 }
 
 .like-area .product-trend div:hover .icon{
