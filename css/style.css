@@ -137,7 +137,7 @@ li{
 /* ===== MENU ===== */
 
 .menu li{
-    margin-left: 25px;
+    /* margin-left: 7px; */
     position: relative;
 }
 
@@ -343,7 +343,7 @@ li{
     position: relative;
     background-size: cover;
     width: 100%;
-    height: 88vh;
+    height: 85vh;
 }
 
 .hero-background .text-center{
@@ -374,6 +374,7 @@ li{
     font-size: 17px;
     color: #444444;
     margin: 15px auto 30px;
+    line-height: 1.5;
 
 }
 
