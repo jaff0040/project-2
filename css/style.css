@@ -554,9 +554,13 @@ li{
     color: #0b2545;
 }
 
-.trending-area .product-trend div:hover a{
+
+
+.trending-area .product-trend div:hover > a{
     color: #1b75bb;
 }
+
+
 
 .trending-area .product-trend div p{
     color: #0b2545;
@@ -608,7 +612,7 @@ li{
     opacity: 0;
     visibility: hidden;
     transform: translateY(20%);
-    transition: 1s;
+    transition: 0.4s;
 }
 
 .trending-area .product-trend div:hover .icon{
